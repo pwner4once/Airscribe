@@ -1,0 +1,5 @@
+C:\Projects\Personal\Wiimote\WiimoteCS\WiimoteLib\bin\Release\WiimoteLib.dll
+C:\Projects\Personal\Wiimote\WiimoteCS\WiimoteLib\bin\Release\WiimoteLib.pdb
+C:\Projects\Personal\Wiimote\WiimoteCS\WiimoteLib\obj\Release\ResolveAssemblyReference.cache
+C:\Projects\Personal\Wiimote\WiimoteCS\WiimoteLib\obj\Release\WiimoteLib.dll
+C:\Projects\Personal\Wiimote\WiimoteCS\WiimoteLib\obj\Release\WiimoteLib.pdb

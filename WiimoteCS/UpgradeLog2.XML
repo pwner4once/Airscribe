@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Wiimote">
+</Property><Property Name="Solution File" Value="C:\Users\jteng2\Documents\My Dropbox\EE364D\Programs\WillmoteLib_CS\WiimoteCS\Wiimote.sln">
+</Property><Property Name="Date" Value="Thursday, September 30, 2010">
+</Property><Property Name="Time" Value="20:29 PM">
+</Property><Property Name="Log Number" Value="2">
+</Property></Properties><Event ErrorLevel="0" Project="WiimoteTest" Source="WiimoteTest\WiimoteTest.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="WiimoteTest" Source="WiimoteTest\WiimoteTest.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="WiimoteLib" Source="WiimoteLib\WiimoteLib.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="WiimoteLib" Source="WiimoteLib\WiimoteLib.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="Wiimote.sln" Description="The solution file does not require conversion.">
+</Event><Event ErrorLevel="3" Project="" Source="Wiimote.sln" Description="No Conversion Required">
+</Event><Event ErrorLevel="0" Project="WiimoteTest" Source="WiimoteTest\WiimoteTest.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="WiimoteLib" Source="WiimoteLib\WiimoteLib.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

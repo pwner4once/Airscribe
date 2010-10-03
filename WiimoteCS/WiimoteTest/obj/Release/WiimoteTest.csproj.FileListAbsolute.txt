@@ -1,0 +1,10 @@
+C:\Projects\Personal\Wiimote\WiimoteCS\WiimoteTest\obj\Release\WiimoteTest.exe
+C:\Projects\Personal\Wiimote\WiimoteCS\WiimoteTest\obj\Release\WiimoteTest.pdb
+C:\Projects\Personal\Wiimote\WiimoteCS\WiimoteTest\bin\Release\WiimoteTest.exe
+C:\Projects\Personal\Wiimote\WiimoteCS\WiimoteTest\bin\Release\WiimoteTest.pdb
+C:\Projects\Personal\Wiimote\WiimoteCS\WiimoteTest\bin\Release\WiimoteLib.dll
+C:\Projects\Personal\Wiimote\WiimoteCS\WiimoteTest\bin\Release\WiimoteLib.pdb
+C:\Projects\Personal\Wiimote\WiimoteCS\WiimoteTest\obj\Release\ResolveAssemblyReference.cache
+C:\Projects\Personal\Wiimote\WiimoteCS\WiimoteTest\obj\Release\WiimoteTest.Properties.Resources.resources
+C:\Projects\Personal\Wiimote\WiimoteCS\WiimoteTest\obj\Release\WiimoteTest.csproj.GenerateResource.Cache
+C:\Projects\Personal\Wiimote\WiimoteCS\WiimoteTest\obj\Release\WiimoteTest.MainForm.resources

@@ -1,0 +1,35 @@
+<Configuration>
+  <UnitTestRunner>
+    <CustomStartDirectory>
+    </CustomStartDirectory>
+    <UseShadowCopy>True</UseShadowCopy>
+    <UseCustomFolder>False</UseCustomFolder>
+    <EnableUnitTesting>True</EnableUnitTesting>
+    <Providers />
+  </UnitTestRunner>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="257D62B4-A234-47FF-BFA6-FC4DE1039F15/f:DataTypes.cs" caret="517" scrollPosition="0|0" />
+      <File id="257D62B4-A234-47FF-BFA6-FC4DE1039F15/f:WiimoteService.cs" caret="3467" scrollPosition="0|46" />
+      <File id="257D62B4-A234-47FF-BFA6-FC4DE1039F15/f:AssemblyInfo.cs" caret="1286" scrollPosition="0|0" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="257D62B4-A234-47FF-BFA6-FC4DE1039F15/f:DataTypes.cs" caret="519" scrollPosition="0|0" />
+      <File id="257D62B4-A234-47FF-BFA6-FC4DE1039F15/f:WiimoteService.cs" caret="2719" scrollPosition="0|46" />
+      <File id="257D62B4-A234-47FF-BFA6-FC4DE1039F15/f:WiimoteService.cs" caret="3467" scrollPosition="0|46" />
+      <File id="257D62B4-A234-47FF-BFA6-FC4DE1039F15/f:AssemblyInfo.cs" caret="1286" scrollPosition="0|0" />
+    </RecentEdits>
+  </RecentFiles>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+      <setting name="UseSolutionBuilder">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <CompletionStatisticsManager />
+</Configuration>

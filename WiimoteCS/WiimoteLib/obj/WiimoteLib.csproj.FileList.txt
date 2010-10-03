@@ -1,0 +1,11 @@
+bin\Debug\WiimoteLib.dll
+bin\Debug\WiimoteLib.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\WiimoteLib.dll
+obj\Debug\WiimoteLib.pdb
+bin\Debug\WiimoteLib.XML
+bin\Release\WiimoteLib.dll
+bin\Release\WiimoteLib.pdb
+obj\Release\ResolveAssemblyReference.cache
+obj\Release\WiimoteLib.dll
+obj\Release\WiimoteLib.pdb

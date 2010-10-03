@@ -1,0 +1,23 @@
+hid.ll
+  HidD_GetHidGuid();
+  HidD_GetAttributes()
+  HidD_SetOutputReport()
+setupapi.dll
+  SetupDiGetClassDevs()
+  SetupDiEnumDeviceInterfaces()
+  SetupDiGetDeviceInterfaceDetail()
+  SetupDiGetDeviceInterfaceDetail()
+  SetupDiDestroyDeviceInfoList()
+
+Wiimote
+  Connect()
+  Disconnect()
+  BeginAsyncRead()
+  OnReadData()
+  DecryptBuffer()
+  ParseButtons() - buff[1-2]
+  ParseAccel() - buf[3-5]
+  ParseIR() - buf[0-1]
+  ClearReport()
+  WriteReport()
+

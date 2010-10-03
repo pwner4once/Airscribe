@@ -1,0 +1,52 @@
+<Configuration>
+  <CompletionStatisticsManager />
+  <EditorManager>
+    <RecentFiles>
+      <File id="37A555DF-7012-4B99-8A47-1C922A361E52/d:docs/f:copyright.txt" caret="0" scrollPosition="0|0" />
+      <File id="37A555DF-7012-4B99-8A47-1C922A361E52/d:docs/f:license.txt" caret="0" scrollPosition="0|0" />
+      <File id="48223EAB-B2E0-4A64-9074-4444662EB693/f:Program.cs" caret="392" scrollPosition="0|0" />
+      <File id="48223EAB-B2E0-4A64-9074-4444662EB693/d:Properties/f:AssemblyInfo.cs" caret="920" scrollPosition="0|0" />
+      <File id="37A555DF-7012-4B99-8A47-1C922A361E52/d:Properties/f:AssemblyInfo.cs" caret="0" scrollPosition="0|0" />
+      <File id="37A555DF-7012-4B99-8A47-1C922A361E52/f:HIDImports.cs" caret="0" scrollPosition="0|0" />
+      <File id="48223EAB-B2E0-4A64-9074-4444662EB693/f:Form1.Designer.cs" caret="22478" scrollPosition="0|604" />
+      <File id="37A555DF-7012-4B99-8A47-1C922A361E52/d:docs/f:readme.txt" caret="877" scrollPosition="0|0" />
+      <File id="37A555DF-7012-4B99-8A47-1C922A361E52/f:Events.cs" caret="0" scrollPosition="0|0" />
+      <File id="48223EAB-B2E0-4A64-9074-4444662EB693/f:Form1.cs" caret="7374" scrollPosition="0|133" />
+      <File id="37A555DF-7012-4B99-8A47-1C922A361E52/f:DataTypes.cs" caret="8916" scrollPosition="0|414" />
+      <File id="37A555DF-7012-4B99-8A47-1C922A361E52/f:Wiimote.cs" caret="38079" scrollPosition="0|949" />
+    </RecentFiles>
+  </EditorManager>
+  <FileStructureView>
+    <AutoScrollToSource>False</AutoScrollToSource>
+    <TrackCaretLocation>False</TrackCaretLocation>
+  </FileStructureView>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <ReFormatCode>
+    <ReorderMembers>False</ReorderMembers>
+    <OptimizeUsings>False</OptimizeUsings>
+    <RemoveRedundantThis>False</RemoveRedundantThis>
+    <ShortenReferences>False</ShortenReferences>
+  </ReFormatCode>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <SharedSolutionDisabledTemplatesManager>
+    <DisabledTemplates />
+  </SharedSolutionDisabledTemplatesManager>
+  <UnitTestRunner>
+    <CustomStartDirectory>
+    </CustomStartDirectory>
+    <UseShadowCopy>True</UseShadowCopy>
+    <UseCustomFolder>False</UseCustomFolder>
+    <Providers />
+  </UnitTestRunner>
+  <UserSolutionDisabledTemplatesManager>
+    <DisabledTemplates />
+  </UserSolutionDisabledTemplatesManager>
+</Configuration>

@@ -1,0 +1,12 @@
+C:\Projects\Personal\Wiimote\WiimoteCS\WiimoteLib\bin\Debug\WiimoteLib.dll
+C:\Projects\Personal\Wiimote\WiimoteCS\WiimoteLib\bin\Debug\WiimoteLib.pdb
+C:\Projects\Personal\Wiimote\WiimoteCS\WiimoteLib\obj\Debug\ResolveAssemblyReference.cache
+C:\Projects\Personal\Wiimote\WiimoteCS\WiimoteLib\obj\Debug\WiimoteLib.dll
+C:\Projects\Personal\Wiimote\WiimoteCS\WiimoteLib\obj\Debug\WiimoteLib.pdb
+C:\Projects\Personal\Wiimote\WiimoteCS\WiimoteLib\bin\Debug\WiimoteLib.XML
+C:\Users\jteng2\Documents\My Dropbox\EE364D\Programs\WillmoteLib_CS\WiimoteCS\WiimoteLib\bin\Debug\WiimoteLib.XML
+C:\Users\jteng2\Documents\My Dropbox\EE364D\Programs\WillmoteLib_CS\WiimoteCS\WiimoteLib\bin\Debug\WiimoteLib.dll
+C:\Users\jteng2\Documents\My Dropbox\EE364D\Programs\WillmoteLib_CS\WiimoteCS\WiimoteLib\bin\Debug\WiimoteLib.pdb
+C:\Users\jteng2\Documents\My Dropbox\EE364D\Programs\WillmoteLib_CS\WiimoteCS\WiimoteLib\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\jteng2\Documents\My Dropbox\EE364D\Programs\WillmoteLib_CS\WiimoteCS\WiimoteLib\obj\Debug\WiimoteLib.dll
+C:\Users\jteng2\Documents\My Dropbox\EE364D\Programs\WillmoteLib_CS\WiimoteCS\WiimoteLib\obj\Debug\WiimoteLib.pdb

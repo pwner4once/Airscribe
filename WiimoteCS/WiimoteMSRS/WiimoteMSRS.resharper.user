@@ -1,0 +1,45 @@
+<Configuration>
+  <CompletionStatisticsManager />
+  <EditorManager>
+    <RecentFiles>
+      <File id="257D62B4-A234-47FF-BFA6-FC4DE1039F15/f:Events.cs" caret="0" scrollPosition="0|0" />
+      <File id="257D62B4-A234-47FF-BFA6-FC4DE1039F15/f:DataTypes.cs" caret="0" scrollPosition="0|0" />
+      <File id="257D62B4-A234-47FF-BFA6-FC4DE1039F15/f:AssemblyInfo.cs" caret="1287" scrollPosition="0|0" />
+      <File id="257D62B4-A234-47FF-BFA6-FC4DE1039F15/f:WiimoteTypes.cs" caret="0" scrollPosition="0|0" />
+      <File id="257D62B4-A234-47FF-BFA6-FC4DE1039F15/f:WiimoteService.cs" caret="526" scrollPosition="0|0" />
+    </RecentFiles>
+  </EditorManager>
+  <FileStructureView>
+    <AutoScrollToSource>False</AutoScrollToSource>
+    <TrackCaretLocation>False</TrackCaretLocation>
+  </FileStructureView>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <ReFormatCode>
+    <ReorderMembers>False</ReorderMembers>
+    <OptimizeUsings>False</OptimizeUsings>
+    <RemoveRedundantThis>False</RemoveRedundantThis>
+    <ShortenReferences>False</ShortenReferences>
+  </ReFormatCode>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <SharedSolutionDisabledTemplatesManager>
+    <DisabledTemplates />
+  </SharedSolutionDisabledTemplatesManager>
+  <UnitTestRunner>
+    <CustomStartDirectory>
+    </CustomStartDirectory>
+    <UseShadowCopy>True</UseShadowCopy>
+    <UseCustomFolder>False</UseCustomFolder>
+    <Providers />
+  </UnitTestRunner>
+  <UserSolutionDisabledTemplatesManager>
+    <DisabledTemplates />
+  </UserSolutionDisabledTemplatesManager>
+</Configuration>

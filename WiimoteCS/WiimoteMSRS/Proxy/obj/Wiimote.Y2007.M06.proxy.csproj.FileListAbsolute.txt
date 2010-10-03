@@ -1,0 +1,9 @@
+C:\Microsoft Robotics Studio (1.5)\bin\Wiimote.Y2007.M06.Proxy.dll
+C:\Microsoft Robotics Studio (1.5)\bin\Wiimote.Y2007.M06.Proxy.pdb
+C:\Microsoft Robotics Studio (1.5)\bin\Wiimote.Y2007.M06.proxy.xml
+C:\Projects\Personal\Wiimote\WiimoteCS\WiimoteMSRS\Proxy\obj\Debug\ResolveAssemblyReference.cache
+C:\Projects\Personal\Wiimote\WiimoteCS\WiimoteMSRS\Proxy\obj\Debug\WiimoteLib.Resources.DssModel.dss
+C:\Projects\Personal\Wiimote\WiimoteCS\WiimoteMSRS\Proxy\obj\Debug\WiimoteLib.Properties.Resources.resources
+C:\Projects\Personal\Wiimote\WiimoteCS\WiimoteMSRS\Proxy\obj\Debug\Wiimote.Y2007.M06.proxy.csproj.GenerateResource.Cache
+C:\Projects\Personal\Wiimote\WiimoteCS\WiimoteMSRS\Proxy\obj\Debug\Wiimote.Y2007.M06.Proxy.dll
+C:\Projects\Personal\Wiimote\WiimoteCS\WiimoteMSRS\Proxy\obj\Debug\Wiimote.Y2007.M06.Proxy.pdb

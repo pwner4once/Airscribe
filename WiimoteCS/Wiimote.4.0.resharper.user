@@ -1,0 +1,74 @@
+<Configuration>
+  <UnitTestRunner>
+    <CustomStartDirectory>
+    </CustomStartDirectory>
+    <UseShadowCopy>True</UseShadowCopy>
+    <UseCustomFolder>False</UseCustomFolder>
+    <EnableUnitTesting>True</EnableUnitTesting>
+    <Providers />
+  </UnitTestRunner>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="48223EAB-B2E0-4A64-9074-4444662EB693/f:MainForm.Designer.cs" caret="0" scrollPosition="0|0" />
+      <File id="37A555DF-7012-4B99-8A47-1C922A361E52/f:Events.cs" caret="363" scrollPosition="0|0" />
+      <File id="37A555DF-7012-4B99-8A47-1C922A361E52/f:HIDImports.cs" caret="2747" scrollPosition="0|0" />
+      <File id="48223EAB-B2E0-4A64-9074-4444662EB693/f:Program.cs" caret="324" scrollPosition="0|0" />
+      <File id="37A555DF-7012-4B99-8A47-1C922A361E52/f:Wiimote.cs" caret="4245" scrollPosition="0|107" />
+      <File id="37A555DF-7012-4B99-8A47-1C922A361E52/d:docs/d:APIHelp/d:AdditionalContent/f:license.topic" caret="0" scrollPosition="0|0" />
+      <File id="37A555DF-7012-4B99-8A47-1C922A361E52/d:docs/d:APIHelp/d:AdditionalContent/f:overview.topic" caret="679" scrollPosition="0|0" />
+      <File id="37A555DF-7012-4B99-8A47-1C922A361E52/d:docs/d:APIHelp/f:WiimoteLib.shfb" caret="0" scrollPosition="0|0" />
+      <File id="37A555DF-7012-4B99-8A47-1C922A361E52/d:docs/d:APIHelp/d:AdditionalContent/f:copyright.topic" caret="0" scrollPosition="0|0" />
+      <File id="37A555DF-7012-4B99-8A47-1C922A361E52/d:docs/d:APIHelp/d:AdditionalContent/f:changes.topic" caret="200" scrollPosition="0|0" />
+      <File id="37A555DF-7012-4B99-8A47-1C922A361E52/d:Properties/f:AssemblyInfo.cs" caret="0" scrollPosition="0|0" />
+      <File id="37A555DF-7012-4B99-8A47-1C922A361E52/d:docs/f:copyright.txt" caret="0" scrollPosition="0|0" />
+      <File id="37A555DF-7012-4B99-8A47-1C922A361E52/f:DataTypes.cs" caret="0" scrollPosition="0|99" />
+      <File id="48223EAB-B2E0-4A64-9074-4444662EB693/f:MainForm.cs" caret="0" scrollPosition="0|0" />
+      <File id="37A555DF-7012-4B99-8A47-1C922A361E52/d:docs/f:license.txt" caret="0" scrollPosition="0|0" />
+      <File id="37A555DF-7012-4B99-8A47-1C922A361E52/d:docs/f:readme.txt" caret="848" scrollPosition="0|0" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="37A555DF-7012-4B99-8A47-1C922A361E52/f:DataTypes.cs" caret="14902" scrollPosition="0|568" />
+      <File id="37A555DF-7012-4B99-8A47-1C922A361E52/f:Wiimote.cs" caret="41077" scrollPosition="0|472" />
+      <File id="37A555DF-7012-4B99-8A47-1C922A361E52/f:DataTypes.cs" caret="11133" scrollPosition="0|419" />
+      <File id="37A555DF-7012-4B99-8A47-1C922A361E52/f:DataTypes.cs" caret="10186" scrollPosition="0|384" />
+      <File id="37A555DF-7012-4B99-8A47-1C922A361E52/f:Wiimote.cs" caret="41077" scrollPosition="0|489" />
+      <File id="37A555DF-7012-4B99-8A47-1C922A361E52/f:Wiimote.cs" caret="41077" scrollPosition="0|489" />
+      <File id="37A555DF-7012-4B99-8A47-1C922A361E52/f:Wiimote.cs" caret="41077" scrollPosition="0|819" />
+      <File id="37A555DF-7012-4B99-8A47-1C922A361E52/f:Wiimote.cs" caret="41077" scrollPosition="0|819" />
+      <File id="37A555DF-7012-4B99-8A47-1C922A361E52/f:Wiimote.cs" caret="41077" scrollPosition="0|816" />
+      <File id="37A555DF-7012-4B99-8A47-1C922A361E52/f:Wiimote.cs" caret="41077" scrollPosition="0|683" />
+      <File id="37A555DF-7012-4B99-8A47-1C922A361E52/f:Wiimote.cs" caret="41077" scrollPosition="0|894" />
+      <File id="37A555DF-7012-4B99-8A47-1C922A361E52/f:Wiimote.cs" caret="41077" scrollPosition="0|249" />
+      <File id="37A555DF-7012-4B99-8A47-1C922A361E52/f:Wiimote.cs" caret="31586" scrollPosition="0|675" />
+      <File id="48223EAB-B2E0-4A64-9074-4444662EB693/f:MainForm.cs" caret="5286" scrollPosition="0|118" />
+      <File id="48223EAB-B2E0-4A64-9074-4444662EB693/f:MainForm.cs" caret="5819" scrollPosition="0|118" />
+      <File id="48223EAB-B2E0-4A64-9074-4444662EB693/f:MainForm.cs" caret="6244" scrollPosition="0|118" />
+      <File id="48223EAB-B2E0-4A64-9074-4444662EB693/f:MainForm.cs" caret="6671" scrollPosition="0|118" />
+      <File id="48223EAB-B2E0-4A64-9074-4444662EB693/f:MainForm.cs" caret="2398" scrollPosition="0|40" />
+      <File id="37A555DF-7012-4B99-8A47-1C922A361E52/f:Wiimote.cs" caret="29448" scrollPosition="0|611" />
+      <File id="37A555DF-7012-4B99-8A47-1C922A361E52/f:Wiimote.cs" caret="28926" scrollPosition="0|594" />
+      <File id="37A555DF-7012-4B99-8A47-1C922A361E52/f:Wiimote.cs" caret="36657" scrollPosition="0|839" />
+      <File id="48223EAB-B2E0-4A64-9074-4444662EB693/f:MainForm.cs" caret="2731" scrollPosition="0|80" />
+      <File id="37A555DF-7012-4B99-8A47-1C922A361E52/d:Properties/f:AssemblyInfo.cs" caret="1480" scrollPosition="0|0" />
+      <File id="37A555DF-7012-4B99-8A47-1C922A361E52/d:docs/f:readme.txt" caret="869" scrollPosition="0|6" />
+      <File id="37A555DF-7012-4B99-8A47-1C922A361E52/d:docs/d:APIHelp/d:AdditionalContent/f:changes.topic" caret="3523" scrollPosition="0|0" />
+      <File id="37A555DF-7012-4B99-8A47-1C922A361E52/d:docs/d:APIHelp/d:AdditionalContent/f:changes.topic" caret="3523" scrollPosition="0|0" />
+      <File id="37A555DF-7012-4B99-8A47-1C922A361E52/d:docs/d:APIHelp/d:AdditionalContent/f:changes.topic" caret="626" scrollPosition="0|0" />
+      <File id="37A555DF-7012-4B99-8A47-1C922A361E52/d:docs/f:readme.txt" caret="743" scrollPosition="0|0" />
+      <File id="37A555DF-7012-4B99-8A47-1C922A361E52/d:docs/d:APIHelp/d:AdditionalContent/f:changes.topic" caret="3530" scrollPosition="0|35" />
+      <File id="37A555DF-7012-4B99-8A47-1C922A361E52/d:docs/d:APIHelp/d:AdditionalContent/f:changes.topic" caret="200" scrollPosition="0|0" />
+    </RecentEdits>
+  </RecentFiles>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+      <setting name="UseSolutionBuilder">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <CompletionStatisticsManager />
+</Configuration>

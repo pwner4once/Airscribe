@@ -1,0 +1,5 @@
+C:\Microsoft Robotics Studio (1.5)\bin\Wiimote.Y2007.M06.dll
+C:\Microsoft Robotics Studio (1.5)\bin\Wiimote.Y2007.M06.pdb
+C:\Projects\Personal\Wiimote\WiimoteCS\WiimoteMSRS\obj\Debug\ResolveAssemblyReference.cache
+C:\Projects\Personal\Wiimote\WiimoteCS\WiimoteMSRS\obj\Debug\Wiimote.Y2007.M06.dll
+C:\Projects\Personal\Wiimote\WiimoteCS\WiimoteMSRS\obj\Debug\Wiimote.Y2007.M06.pdb
