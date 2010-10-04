@@ -25,3 +25,5 @@ C:\Users\jteng2\Desktop\WiimoteCS\WiimoteTest\obj\Debug\WiimoteTest.exe
 C:\Users\jteng2\Desktop\WiimoteCS\WiimoteTest\obj\Debug\WiimoteTest.pdb
 C:\Users\jteng2\Documents\EE364D\WiimoteCS\WiimoteTest\obj\Debug\WiimoteTest.exe
 C:\Users\jteng2\Documents\EE364D\WiimoteCS\WiimoteTest\obj\Debug\WiimoteTest.pdb
+C:\Users\jteng2\Documents\Airscribe\WiimoteCS\WiimoteTest\obj\Debug\WiimoteTest.exe
+C:\Users\jteng2\Documents\Airscribe\WiimoteCS\WiimoteTest\obj\Debug\WiimoteTest.pdb

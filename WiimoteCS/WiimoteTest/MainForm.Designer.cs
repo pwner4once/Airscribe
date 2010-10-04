@@ -71,6 +71,11 @@ namespace WiimoteTest
             this.lblGuitarJoy = new System.Windows.Forms.Label();
             this.clbGuitarButtons = new System.Windows.Forms.CheckedListBox();
             this.groupBox8 = new System.Windows.Forms.GroupBox();
+            this.groupBox9 = new System.Windows.Forms.GroupBox();
+            this.lv_xyz = new System.Windows.Forms.ListView();
+            this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader3 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             ((System.ComponentModel.ISupportInitialize)(this.pbIR)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -80,6 +85,7 @@ namespace WiimoteTest
             this.groupBox6.SuspendLayout();
             this.groupBox7.SuspendLayout();
             this.groupBox8.SuspendLayout();
+            this.groupBox9.SuspendLayout();
             this.SuspendLayout();
             // 
             // clbButtons
@@ -98,7 +104,7 @@ namespace WiimoteTest
             "Left",
             "Right"});
             this.clbButtons.Location = new System.Drawing.Point(11, 20);
-            this.clbButtons.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.clbButtons.Margin = new System.Windows.Forms.Padding(4);
             this.clbButtons.Name = "clbButtons";
             this.clbButtons.Size = new System.Drawing.Size(73, 225);
             this.clbButtons.TabIndex = 1;
@@ -116,9 +122,9 @@ namespace WiimoteTest
             // 
             this.chkLED4.AutoSize = true;
             this.chkLED4.Location = new System.Drawing.Point(11, 94);
-            this.chkLED4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.chkLED4.Margin = new System.Windows.Forms.Padding(4);
             this.chkLED4.Name = "chkLED4";
-            this.chkLED4.Size = new System.Drawing.Size(87, 26);
+            this.chkLED4.Size = new System.Drawing.Size(65, 21);
             this.chkLED4.TabIndex = 3;
             this.chkLED4.Text = "LED4";
             this.chkLED4.UseVisualStyleBackColor = true;
@@ -128,9 +134,9 @@ namespace WiimoteTest
             // 
             this.chkLED3.AutoSize = true;
             this.chkLED3.Location = new System.Drawing.Point(11, 69);
-            this.chkLED3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.chkLED3.Margin = new System.Windows.Forms.Padding(4);
             this.chkLED3.Name = "chkLED3";
-            this.chkLED3.Size = new System.Drawing.Size(87, 26);
+            this.chkLED3.Size = new System.Drawing.Size(65, 21);
             this.chkLED3.TabIndex = 3;
             this.chkLED3.Text = "LED3";
             this.chkLED3.UseVisualStyleBackColor = true;
@@ -140,9 +146,9 @@ namespace WiimoteTest
             // 
             this.chkLED2.AutoSize = true;
             this.chkLED2.Location = new System.Drawing.Point(11, 44);
-            this.chkLED2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.chkLED2.Margin = new System.Windows.Forms.Padding(4);
             this.chkLED2.Name = "chkLED2";
-            this.chkLED2.Size = new System.Drawing.Size(87, 26);
+            this.chkLED2.Size = new System.Drawing.Size(65, 21);
             this.chkLED2.TabIndex = 3;
             this.chkLED2.Text = "LED2";
             this.chkLED2.UseVisualStyleBackColor = true;
@@ -152,9 +158,9 @@ namespace WiimoteTest
             // 
             this.chkLED1.AutoSize = true;
             this.chkLED1.Location = new System.Drawing.Point(11, 20);
-            this.chkLED1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.chkLED1.Margin = new System.Windows.Forms.Padding(4);
             this.chkLED1.Name = "chkLED1";
-            this.chkLED1.Size = new System.Drawing.Size(87, 26);
+            this.chkLED1.Size = new System.Drawing.Size(65, 21);
             this.chkLED1.TabIndex = 3;
             this.chkLED1.Text = "LED1";
             this.chkLED1.UseVisualStyleBackColor = true;
@@ -164,9 +170,9 @@ namespace WiimoteTest
             // 
             this.chkRumble.AutoSize = true;
             this.chkRumble.Location = new System.Drawing.Point(11, 118);
-            this.chkRumble.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.chkRumble.Margin = new System.Windows.Forms.Padding(4);
             this.chkRumble.Name = "chkRumble";
-            this.chkRumble.Size = new System.Drawing.Size(104, 26);
+            this.chkRumble.Size = new System.Drawing.Size(78, 21);
             this.chkRumble.TabIndex = 4;
             this.chkRumble.Text = "Rumble";
             this.chkRumble.UseVisualStyleBackColor = true;
@@ -175,7 +181,7 @@ namespace WiimoteTest
             // pbBattery
             // 
             this.pbBattery.Location = new System.Drawing.Point(11, 25);
-            this.pbBattery.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pbBattery.Margin = new System.Windows.Forms.Padding(4);
             this.pbBattery.Maximum = 200;
             this.pbBattery.Name = "pbBattery";
             this.pbBattery.Size = new System.Drawing.Size(133, 28);
@@ -206,9 +212,9 @@ namespace WiimoteTest
             // 
             this.chkFound1.AutoSize = true;
             this.chkFound1.Location = new System.Drawing.Point(11, 182);
-            this.chkFound1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.chkFound1.Margin = new System.Windows.Forms.Padding(4);
             this.chkFound1.Name = "chkFound1";
-            this.chkFound1.Size = new System.Drawing.Size(73, 26);
+            this.chkFound1.Size = new System.Drawing.Size(55, 21);
             this.chkFound1.TabIndex = 8;
             this.chkFound1.Text = "IR 1";
             this.chkFound1.UseVisualStyleBackColor = true;
@@ -217,9 +223,9 @@ namespace WiimoteTest
             // 
             this.chkFound2.AutoSize = true;
             this.chkFound2.Location = new System.Drawing.Point(11, 202);
-            this.chkFound2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.chkFound2.Margin = new System.Windows.Forms.Padding(4);
             this.chkFound2.Name = "chkFound2";
-            this.chkFound2.Size = new System.Drawing.Size(73, 26);
+            this.chkFound2.Size = new System.Drawing.Size(55, 21);
             this.chkFound2.TabIndex = 8;
             this.chkFound2.Text = "IR 2";
             this.chkFound2.UseVisualStyleBackColor = true;
@@ -237,7 +243,7 @@ namespace WiimoteTest
             // pbIR
             // 
             this.pbIR.Location = new System.Drawing.Point(11, 310);
-            this.pbIR.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pbIR.Margin = new System.Windows.Forms.Padding(4);
             this.pbIR.Name = "pbIR";
             this.pbIR.Size = new System.Drawing.Size(341, 236);
             this.pbIR.TabIndex = 10;
@@ -247,7 +253,7 @@ namespace WiimoteTest
             // 
             this.chkExtension.AutoSize = true;
             this.chkExtension.Location = new System.Drawing.Point(11, 281);
-            this.chkExtension.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.chkExtension.Margin = new System.Windows.Forms.Padding(4);
             this.chkExtension.Name = "chkExtension";
             this.chkExtension.Size = new System.Drawing.Size(64, 21);
             this.chkExtension.TabIndex = 12;
@@ -276,9 +282,9 @@ namespace WiimoteTest
             // 
             this.groupBox1.Controls.Add(this.lblAccel);
             this.groupBox1.Location = new System.Drawing.Point(107, 5);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox1.Size = new System.Drawing.Size(139, 89);
             this.groupBox1.TabIndex = 18;
             this.groupBox1.TabStop = false;
@@ -291,9 +297,9 @@ namespace WiimoteTest
             this.groupBox2.Controls.Add(this.lblChuk);
             this.groupBox2.Controls.Add(this.lblChukJoy);
             this.groupBox2.Location = new System.Drawing.Point(107, 98);
-            this.groupBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox2.Size = new System.Drawing.Size(139, 167);
             this.groupBox2.TabIndex = 19;
             this.groupBox2.TabStop = false;
@@ -303,9 +309,9 @@ namespace WiimoteTest
             // 
             this.chkZ.AutoSize = true;
             this.chkZ.Location = new System.Drawing.Point(11, 138);
-            this.chkZ.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.chkZ.Margin = new System.Windows.Forms.Padding(4);
             this.chkZ.Name = "chkZ";
-            this.chkZ.Size = new System.Drawing.Size(52, 26);
+            this.chkZ.Size = new System.Drawing.Size(39, 21);
             this.chkZ.TabIndex = 17;
             this.chkZ.Text = "Z";
             this.chkZ.UseVisualStyleBackColor = true;
@@ -314,9 +320,9 @@ namespace WiimoteTest
             // 
             this.chkC.AutoSize = true;
             this.chkC.Location = new System.Drawing.Point(11, 113);
-            this.chkC.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.chkC.Margin = new System.Windows.Forms.Padding(4);
             this.chkC.Name = "chkC";
-            this.chkC.Size = new System.Drawing.Size(52, 26);
+            this.chkC.Size = new System.Drawing.Size(39, 21);
             this.chkC.TabIndex = 17;
             this.chkC.Text = "C";
             this.chkC.UseVisualStyleBackColor = true;
@@ -329,9 +335,9 @@ namespace WiimoteTest
             this.groupBox3.Controls.Add(this.chkLED1);
             this.groupBox3.Controls.Add(this.chkRumble);
             this.groupBox3.Location = new System.Drawing.Point(357, 310);
-            this.groupBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox3.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox3.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox3.Size = new System.Drawing.Size(96, 148);
             this.groupBox3.TabIndex = 20;
             this.groupBox3.TabStop = false;
@@ -342,9 +348,9 @@ namespace WiimoteTest
             this.groupBox4.Controls.Add(this.pbBattery);
             this.groupBox4.Controls.Add(this.lblBattery);
             this.groupBox4.Location = new System.Drawing.Point(251, 236);
-            this.groupBox4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox4.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox4.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox4.Size = new System.Drawing.Size(208, 64);
             this.groupBox4.TabIndex = 21;
             this.groupBox4.TabStop = false;
@@ -365,9 +371,9 @@ namespace WiimoteTest
             this.groupBox5.Controls.Add(this.chkFound1);
             this.groupBox5.Controls.Add(this.chkFound2);
             this.groupBox5.Location = new System.Drawing.Point(251, 5);
-            this.groupBox5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox5.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox5.Name = "groupBox5";
-            this.groupBox5.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox5.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox5.Size = new System.Drawing.Size(208, 231);
             this.groupBox5.TabIndex = 22;
             this.groupBox5.TabStop = false;
@@ -437,9 +443,9 @@ namespace WiimoteTest
             // 
             this.chkFound3.AutoSize = true;
             this.chkFound3.Location = new System.Drawing.Point(80, 182);
-            this.chkFound3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.chkFound3.Margin = new System.Windows.Forms.Padding(4);
             this.chkFound3.Name = "chkFound3";
-            this.chkFound3.Size = new System.Drawing.Size(73, 26);
+            this.chkFound3.Size = new System.Drawing.Size(55, 21);
             this.chkFound3.TabIndex = 8;
             this.chkFound3.Text = "IR 3";
             this.chkFound3.UseVisualStyleBackColor = true;
@@ -448,9 +454,9 @@ namespace WiimoteTest
             // 
             this.chkFound4.AutoSize = true;
             this.chkFound4.Location = new System.Drawing.Point(80, 202);
-            this.chkFound4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.chkFound4.Margin = new System.Windows.Forms.Padding(4);
             this.chkFound4.Name = "chkFound4";
-            this.chkFound4.Size = new System.Drawing.Size(73, 26);
+            this.chkFound4.Size = new System.Drawing.Size(55, 21);
             this.chkFound4.TabIndex = 8;
             this.chkFound4.Text = "IR 4";
             this.chkFound4.UseVisualStyleBackColor = true;
@@ -475,7 +481,7 @@ namespace WiimoteTest
             "LTrigger",
             "RTrigger"});
             this.clbCCButtons.Location = new System.Drawing.Point(5, 20);
-            this.clbCCButtons.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.clbCCButtons.Margin = new System.Windows.Forms.Padding(4);
             this.clbCCButtons.Name = "clbCCButtons";
             this.clbCCButtons.Size = new System.Drawing.Size(89, 293);
             this.clbCCButtons.TabIndex = 23;
@@ -488,9 +494,9 @@ namespace WiimoteTest
             this.groupBox6.Controls.Add(this.lblCCJoy1);
             this.groupBox6.Controls.Add(this.clbCCButtons);
             this.groupBox6.Location = new System.Drawing.Point(464, 207);
-            this.groupBox6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox6.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox6.Name = "groupBox6";
-            this.groupBox6.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox6.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox6.Size = new System.Drawing.Size(251, 330);
             this.groupBox6.TabIndex = 24;
             this.groupBox6.TabStop = false;
@@ -540,9 +546,9 @@ namespace WiimoteTest
             this.groupBox7.Controls.Add(this.lblGuitarJoy);
             this.groupBox7.Controls.Add(this.clbGuitarButtons);
             this.groupBox7.Location = new System.Drawing.Point(464, 5);
-            this.groupBox7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox7.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox7.Name = "groupBox7";
-            this.groupBox7.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox7.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox7.Size = new System.Drawing.Size(251, 197);
             this.groupBox7.TabIndex = 26;
             this.groupBox7.TabStop = false;
@@ -581,7 +587,7 @@ namespace WiimoteTest
             "StrumUp",
             "StrumDown"});
             this.clbGuitarButtons.Location = new System.Drawing.Point(5, 20);
-            this.clbGuitarButtons.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.clbGuitarButtons.Margin = new System.Windows.Forms.Padding(4);
             this.clbGuitarButtons.Name = "clbGuitarButtons";
             this.clbGuitarButtons.Size = new System.Drawing.Size(105, 157);
             this.clbGuitarButtons.TabIndex = 23;
@@ -590,19 +596,59 @@ namespace WiimoteTest
             // 
             this.groupBox8.Controls.Add(this.clbButtons);
             this.groupBox8.Location = new System.Drawing.Point(5, 5);
-            this.groupBox8.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox8.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox8.Name = "groupBox8";
-            this.groupBox8.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox8.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox8.Size = new System.Drawing.Size(96, 271);
             this.groupBox8.TabIndex = 27;
             this.groupBox8.TabStop = false;
             this.groupBox8.Text = "Wiimote";
             // 
+            // groupBox9
+            // 
+            this.groupBox9.Controls.Add(this.lv_xyz);
+            this.groupBox9.Location = new System.Drawing.Point(722, 5);
+            this.groupBox9.Name = "groupBox9";
+            this.groupBox9.Size = new System.Drawing.Size(304, 541);
+            this.groupBox9.TabIndex = 29;
+            this.groupBox9.TabStop = false;
+            this.groupBox9.Text = "X, Y, Z accel (press A to append)";
+            // 
+            // lv_xyz
+            // 
+            this.lv_xyz.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.columnHeader1,
+            this.columnHeader2,
+            this.columnHeader3});
+            this.lv_xyz.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.lv_xyz.Location = new System.Drawing.Point(3, 18);
+            this.lv_xyz.Name = "lv_xyz";
+            this.lv_xyz.Size = new System.Drawing.Size(298, 520);
+            this.lv_xyz.TabIndex = 31;
+            this.lv_xyz.UseCompatibleStateImageBehavior = false;
+            this.lv_xyz.View = System.Windows.Forms.View.Details;
+            // 
+            // columnHeader1
+            // 
+            this.columnHeader1.Text = "X";
+            this.columnHeader1.Width = 88;
+            // 
+            // columnHeader2
+            // 
+            this.columnHeader2.Text = "Y";
+            this.columnHeader2.Width = 107;
+            // 
+            // columnHeader3
+            // 
+            this.columnHeader3.Text = "Z";
+            this.columnHeader3.Width = 99;
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(721, 558);
+            this.ClientSize = new System.Drawing.Size(1038, 558);
+            this.Controls.Add(this.groupBox9);
             this.Controls.Add(this.groupBox8);
             this.Controls.Add(this.groupBox7);
             this.Controls.Add(this.groupBox6);
@@ -614,7 +660,7 @@ namespace WiimoteTest
             this.Controls.Add(this.chkExtension);
             this.Controls.Add(this.groupBox2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximizeBox = false;
             this.Name = "MainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -636,6 +682,7 @@ namespace WiimoteTest
             this.groupBox7.ResumeLayout(false);
             this.groupBox7.PerformLayout();
             this.groupBox8.ResumeLayout(false);
+            this.groupBox9.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -685,7 +732,12 @@ namespace WiimoteTest
 		private System.Windows.Forms.CheckedListBox clbGuitarButtons;
 		private System.Windows.Forms.GroupBox groupBox8;
 		private System.Windows.Forms.CheckBox chkZ;
-		private System.Windows.Forms.CheckBox chkC;
+        private System.Windows.Forms.CheckBox chkC;
+        private System.Windows.Forms.GroupBox groupBox9;
+        private System.Windows.Forms.ListView lv_xyz;
+        private System.Windows.Forms.ColumnHeader columnHeader1;
+        private System.Windows.Forms.ColumnHeader columnHeader2;
+        private System.Windows.Forms.ColumnHeader columnHeader3;
 	}
 }
 

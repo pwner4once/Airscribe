@@ -70,7 +70,7 @@ namespace WiimoteTest
 			clbButtons.SetItemChecked(10, ws.ButtonState.Right);
 
 			lblAccel.Text = ws.AccelState.Values.ToString();
-
+            
 			switch(ws.ExtensionType)
 			{
 				case ExtensionType.Nunchuk:
@@ -164,6 +164,12 @@ namespace WiimoteTest
 			pbBattery.Value = (ws.Battery > 0xc8 ? 0xc8 : (int)ws.Battery);
 			float f = (((100.0f * 48.0f * (float)(ws.Battery / 48.0f))) / 192.0f);
 			lblBattery.Text = f.ToString("F");
+
+            // add stuff listview for XYZ data
+            if (ws.ButtonState.A)
+            {
+                lv_xyz.Items.Insert(0, new ListViewItem(new string[] { ws.AccelState.Values.X.ToString(), ws.AccelState.Values.Y.ToString(), ws.AccelState.Values.Z.ToString() }));
+            }
 		}
 
 		private void wm_WiimoteChanged(object sender, WiimoteChangedEventArgs args)
