@@ -40,6 +40,7 @@ namespace WiimoteTest
 			wm.Connect();
 			wm.SetReportType(InputReport.IRAccel, true);
 			wm.SetLEDs(false, true, true, false);
+            tcpClient.initConnection();
 		}
 
 		private void UpdateExtensionChanged(WiimoteExtensionChangedEventArgs args)
@@ -170,6 +171,11 @@ namespace WiimoteTest
             {
                 lv_xyz.Items.Insert(0, new ListViewItem(new string[] { ws.AccelState.Values.X.ToString(), ws.AccelState.Values.Y.ToString(), ws.AccelState.Values.Z.ToString() }));
             }
+
+            // sending accelerometer over TCP
+            tcpClient.Send("X" + ws.AccelState.Values.X.ToString());
+            tcpClient.Send("Y" + ws.AccelState.Values.Y.ToString());
+            tcpClient.Send("Z" + ws.AccelState.Values.Z.ToString());
 		}
 
 		private void wm_WiimoteChanged(object sender, WiimoteChangedEventArgs args)
@@ -195,6 +201,7 @@ namespace WiimoteTest
 		private void Form1_FormClosing(object sender, FormClosingEventArgs e)
 		{
 			wm.Disconnect();
+            tcpClient.CloseConnection();
 		}
 	}
 }

@@ -77,6 +77,10 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\Sockets\Client\DotNetSocClient.NET\DotNetSocClient.csproj">
+      <Project>{0F474AB9-C2DA-4CCB-A4E1-5AFEC757193B}</Project>
+      <Name>DotNetSocClient</Name>
+    </ProjectReference>
     <ProjectReference Include="..\WiimoteLib\WiimoteLib.csproj">
       <Project>{37A555DF-7012-4B99-8A47-1C922A361E52}</Project>
       <Name>WiimoteLib</Name>

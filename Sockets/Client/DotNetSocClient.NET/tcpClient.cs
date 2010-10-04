@@ -1,6 +1,3 @@
-// tcpClient.java by fpont 3/2000
-
-// usage : java tcpClient <server> <port>
 // default port is 1500
 using System;
 using System.Net.Sockets;
@@ -24,80 +21,93 @@ public class tcpClient
     static System.Net.Sockets.Socket socket = null;
     static System.Text.ASCIIEncoding encoding = new System.Text.ASCIIEncoding();
 
-	[STAThread]
-	public static void  Main(System.String[] args)
-	{
-		int port = 1500;
-		System.String server = "nt126101";
-		
-		System.String lineToBeSent;
-		System.IO.StreamReader input;
-		System.IO.StreamWriter output;
-		int ERROR = 1;
+    //[STAThread]
+    //public static void  Main(System.String[] args)
+    //{
+    //    initConnection(1500);
+    //}
+
+    [STAThread]
+    public static void initConnection()
+    {
+        initConnection(1500);
+    }
+    [STAThread]
+    public static void initConnection(int portNumber)
+    {
+        System.String server = "nt126101";
+
+        System.String lineToBeSent;
+        System.IO.StreamReader input;
+        System.IO.StreamWriter output;
+        int ERROR = 1;
 
         System.Console.Out.WriteLine("server port = 1500 (default)");
-        port = 1500;
-		
-		try
-		{
-			//UPGRADE_TODO: Expected value of parameters of constructor 'java.io.BufferedReader.BufferedReader' are different in the equivalent in .NET. 'ms-help://MS.VSCC.2003/commoner/redir/redirect.htm?keyword="jlca1092"'
-			//UPGRADE_ISSUE: 'java.lang.System.in' was converted to 'System.Console.In' which is not valid in this expression. 'ms-help://MS.VSCC.2003/commoner/redir/redirect.htm?keyword="jlca1109"'
-			//			input = new System.IO.StreamReader(new System.IO.StreamReader(System.Console.In).BaseStream, System.Text.Encoding.UTF7);
-			//			System.IO.StreamWriter temp_writer;
-			//			temp_writer = new System.IO.StreamWriter((System.IO.Stream) socket.GetStream());
-			//			temp_writer.AutoFlush = true;
-			//			output = temp_writer;
-			
-			// get user input and transmit it to server
 
-            socket = new System.Net.Sockets.Socket(AddressFamily.InterNetwork,SocketType.Stream,ProtocolType.Tcp);
-			System.Net.IPAddress ipAdd = System.Net.IPAddress.Parse("192.168.1.12"); 
-			System.Net.IPEndPoint remoteEP = new System.Net.IPEndPoint(ipAdd,1500);
+        try
+        {
+            //UPGRADE_TODO: Expected value of parameters of constructor 'java.io.BufferedReader.BufferedReader' are different in the equivalent in .NET. 'ms-help://MS.VSCC.2003/commoner/redir/redirect.htm?keyword="jlca1092"'
+            //UPGRADE_ISSUE: 'java.lang.System.in' was converted to 'System.Console.In' which is not valid in this expression. 'ms-help://MS.VSCC.2003/commoner/redir/redirect.htm?keyword="jlca1109"'
+            //			input = new System.IO.StreamReader(new System.IO.StreamReader(System.Console.In).BaseStream, System.Text.Encoding.UTF7);
+            //			System.IO.StreamWriter temp_writer;
+            //			temp_writer = new System.IO.StreamWriter((System.IO.Stream) socket.GetStream());
+            //			temp_writer.AutoFlush = true;
+            //			output = temp_writer;
 
-			socket.Connect(remoteEP);
-			//Async Read form the server side
-			Receive(socket);
-			//new System.Net.Sockets.TcpClient(server, port);
-			while(true)
-			{
-				lineToBeSent = System.Console.ReadLine();
-				
-				// stop if input line is "."
-				if(lineToBeSent.Equals("."))
-				{
-					socket.Close();
-					break;
-				}
+            // get user input and transmit it to server
+
+            socket = new System.Net.Sockets.Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
+            System.Net.IPAddress ipAdd = System.Net.IPAddress.Parse("127.0.0.1");
+            System.Net.IPEndPoint remoteEP = new System.Net.IPEndPoint(ipAdd, portNumber);
+
+            socket.Connect(remoteEP);
+            //Async Read form the server side!
+
+            Receive(socket);
+            //new System.Net.Sockets.TcpClient(server, port);
+            while (true)
+            {
+                lineToBeSent = System.Console.ReadLine();
+
+                // stop if input line is "."
+                if (lineToBeSent.Equals("."))
+                {
+                    socket.Close();
+                    break;
+                }
                 lineToBeSent += "\n";
-				//output.WriteLine(lineToBeSent);\
-				//System.Net.Sockets.NetworkStream tempstream = socket.GetStream();
-                tcpSend(socket, lineToBeSent, encoding);
-			}
-			//socket.Close();
+                //output.WriteLine(lineToBeSent);\
+                //System.Net.Sockets.NetworkStream tempstream = socket.GetStream();
+                Send(lineToBeSent);
+            }
+            
 
-			
-			byte[] Serbyte = new byte[30];
-			//			socket.Receive(Serbyte,0,20,System.Net.Sockets.SocketFlags.None);
-			//			System.Console.WriteLine("Message from server \n" + encoding.GetString(Serbyte));
 
-			//socket.Close();
-		
-		
-		}
-		catch (System.IO.IOException e)
-		{
-			System.Console.Out.WriteLine(e);
-		}		
-	}
+            byte[] Serbyte = new byte[30];
+            //			socket.Receive(Serbyte,0,20,System.Net.Sockets.SocketFlags.None);
+            //			System.Console.WriteLine("Message from server \n" + encoding.GetString(Serbyte));
 
-   
+            //socket.Close();
 
-    private void tcpSend(System.String lineToBeSent)
-    {
-        this.socket.Send(encoding.GetBytes(lineToBeSent));
+
+        }
+        catch (System.IO.IOException e)
+        {
+            System.Console.Out.WriteLine(e);
+        }	
     }
-
-	private static void Receive(Socket client) 
+    [STAThread]
+    public static void CloseConnection()
+    {
+        socket.Close();
+    }
+    [STAThread]
+    public static void Send(System.String lineToBeSent)
+    {
+        socket.Send(encoding.GetBytes(lineToBeSent));
+    }
+    [STAThread]
+    public static void Receive(Socket client) 
 	{
 		try 
 		{
@@ -117,7 +127,8 @@ public class tcpClient
 	}
 
 	static string response = "";
-	private static void ReceiveCallback( IAsyncResult ar ) 
+    [STAThread]
+    public static void ReceiveCallback(IAsyncResult ar) 
 	{
 		try 
 		{
@@ -161,6 +172,4 @@ public class tcpClient
 			Console.WriteLine(e.ToString());
 		}
 	}
-
-
 }

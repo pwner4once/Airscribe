@@ -103,9 +103,6 @@
       <SubType>Preview</SubType>
     </None>
   </ItemGroup>
-  <ItemGroup>
-    <Content Include="tcpServer.java" />
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
     <PreBuildEvent />
