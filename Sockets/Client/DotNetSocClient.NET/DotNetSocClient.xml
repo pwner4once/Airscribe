@@ -1,0 +1,57 @@
+<ConversionLog>
+    <Settings>
+        <Setting
+            Name = "LogFile"
+            Value = "DotNetSocClient.xml"
+        />
+        <Setting
+            Name = "ProjectName"
+            Value = "DotNetSocClient"
+        />
+        <Setting
+            Name = "OutputDir"
+            Value = "F:\Sockets\Client\DotNetSocClient.NET"
+        />
+        <Setting
+            Name = "ProjectPath"
+            Value = "F:\Sockets\Client"
+        />
+    </Settings>
+    <File
+        OldPath = "F:\Sockets\Client\tcpClient.java"
+        NewPath = "F:\Sockets\Client\DotNetSocClient.NET\tcpClient.cs"
+    >
+        <Class Name = "tcpClient" >
+            <Section Name = "main(java.lang.String[])" >
+                <Issue
+                    Type = "Compile"
+                    Number = "1000"
+                    LinkKeywordParam = "_javanetSocketgetInetAddress"
+                    Severity = "1"
+                >Method 'java.net.Socket.getInetAddress' was not converted.</Issue>
+                <Issue
+                    Type = "Compile"
+                    Number = "1000"
+                    LinkKeywordParam = "_javanetSocketgetPort"
+                    Severity = "1"
+                >Method 'java.net.Socket.getPort' was not converted.</Issue>
+                <Issue
+                    Type = "ToDo"
+                    Number = "1092"
+                    Severity = "2"
+                >Expected value of parameters of constructor 'java.io.BufferedReader.BufferedReader' are different in the equivalent in .NET.</Issue>
+                <Issue
+                    Type = "Compile"
+                    Number = "1109"
+                    Severity = "2"
+                >'java.lang.System.in' was converted to 'System.Console.In' which is not valid in this expression.</Issue>
+            </Section>
+        </Class>
+    </File>
+    <Issue
+        Type = "Global Warning"
+        Number = "4007"
+        Severity = "2"
+    >The startup class  doesn't exist in the project</Issue>
+</ConversionLog>
+

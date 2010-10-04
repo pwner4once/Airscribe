@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="DotNetSocClient">
+</Property><Property Name="Solution File" Value="C:\Users\jteng2\Desktop\Sockets\Client\DotNetSocClient.NET\DotNetSocClient.sln">
+</Property><Property Name="User Options File" Value="C:\Users\jteng2\Desktop\Sockets\Client\DotNetSocClient.NET\DotNetSocClient.suo">
+</Property><Property Name="Date" Value="Sunday, October 03, 2010">
+</Property><Property Name="Time" Value="20:50 PM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="DotNetSocClient.sln" Description="File successfully backed up as C:\Users\jteng2\Desktop\Sockets\Client\DotNetSocClient.NET\Backup\DotNetSocClient.sln">
+</Event><Event ErrorLevel="0" Project="" Source="DotNetSocClient.suo" Description="File successfully backed up as C:\Users\jteng2\Desktop\Sockets\Client\DotNetSocClient.NET\Backup\DotNetSocClient.suo">
+</Event><Event ErrorLevel="0" Project="DotNetSocClient" Source="DotNetSocClient.csproj" Description="Project file successfully backed up as C:\Users\jteng2\Desktop\Sockets\Client\DotNetSocClient.NET\Backup\DotNetSocClient.csproj">
+</Event><Event ErrorLevel="0" Project="DotNetSocClient" Source="DotNetSocClient.csproj.user" Description="Project user file successfully backed up as C:\Users\jteng2\Desktop\Sockets\Client\DotNetSocClient.NET\Backup\DotNetSocClient.csproj.user">
+</Event><Event ErrorLevel="0" Project="DotNetSocClient" Source="AssemblyInfo.cs" Description="File successfully backed up as C:\Users\jteng2\Desktop\Sockets\Client\DotNetSocClient.NET\Backup\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="DotNetSocClient" Source="tcpClient.cs" Description="File successfully backed up as C:\Users\jteng2\Desktop\Sockets\Client\DotNetSocClient.NET\Backup\tcpClient.cs">
+</Event><Event ErrorLevel="0" Project="DotNetSocClient" Source="_ConversionReport.htm" Description="File successfully backed up as C:\Users\jteng2\Desktop\Sockets\Client\DotNetSocClient.NET\Backup\_ConversionReport.htm">
+</Event><Event ErrorLevel="0" Project="DotNetSocClient" Source="DotNetSocClient.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="DotNetSocClient" Source="DotNetSocClient.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="DotNetSocClient.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="DotNetSocClient.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="DotNetSocClient" Source="DotNetSocClient.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>
