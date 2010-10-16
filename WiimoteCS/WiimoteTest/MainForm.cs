@@ -40,7 +40,7 @@ namespace WiimoteTest
 			wm.Connect();
 			wm.SetReportType(InputReport.IRAccel, true);
 			wm.SetLEDs(false, true, true, false);
-            tcpClient.initConnection();
+            tcpClient.initConnection(1500);
 		}
 
 		private void UpdateExtensionChanged(WiimoteExtensionChangedEventArgs args)

@@ -21,11 +21,11 @@ public class tcpClient
     static System.Net.Sockets.Socket socket = null;
     static System.Text.ASCIIEncoding encoding = new System.Text.ASCIIEncoding();
 
-    //[STAThread]
-    //public static void  Main(System.String[] args)
-    //{
-    //    initConnection(1500);
-    //}
+    [STAThread]
+    public static void Main(System.String[] args)
+    {
+        initConnection(1500);
+    }
 
     [STAThread]
     public static void initConnection()
@@ -104,7 +104,7 @@ public class tcpClient
     [STAThread]
     public static void Send(System.String lineToBeSent)
     {
-        socket.Send(encoding.GetBytes(lineToBeSent));
+        //socket.Send(encoding.GetBytes(lineToBeSent));
     }
     [STAThread]
     public static void Receive(Socket client) 
