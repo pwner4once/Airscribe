@@ -56,6 +56,7 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="tryf.cs" />
     <EmbeddedResource Include="MainForm.resx">
       <SubType>Designer</SubType>
       <DependentUpon>MainForm.cs</DependentUpon>
@@ -81,9 +82,13 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\Sockets\Client\DotNetSocClient.NET\DotNetSocClient.csproj">
+    <ProjectReference Include="..\..\Sockets\Client\DotNetSocClient.NET\tcpClient.csproj">
       <Project>{0F474AB9-C2DA-4CCB-A4E1-5AFEC757193B}</Project>
-      <Name>DotNetSocClient</Name>
+      <Name>tcpClient</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WiimoteData\WiimoteData.csproj">
+      <Project>{BA451EAD-E47B-46C6-9B04-B39CB916239F}</Project>
+      <Name>WiimoteData</Name>
     </ProjectReference>
     <ProjectReference Include="..\WiimoteLib\WiimoteLib.csproj">
       <Project>{37A555DF-7012-4B99-8A47-1C922A361E52}</Project>

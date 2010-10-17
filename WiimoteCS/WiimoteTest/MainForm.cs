@@ -170,12 +170,22 @@ namespace WiimoteTest
             if (ws.ButtonState.A)
             {
                 lv_xyz.Items.Insert(0, new ListViewItem(new string[] { ws.AccelState.Values.X.ToString(), ws.AccelState.Values.Y.ToString(), ws.AccelState.Values.Z.ToString() }));
+                // sending accelerometer over TCP
+                int msgLen = 9;
+
+                try{
+                    tcpClient.Send("AX" + ws.AccelState.Values.X.ToString().Substring(0, msgLen) + "\n");
+                    tcpClient.Send("AY" + ws.AccelState.Values.Y.ToString().Substring(0, msgLen) + "\n");
+                    tcpClient.Send("AZ" + ws.AccelState.Values.Z.ToString().Substring(0, msgLen) + "\n");
+                    tcpClient.Send("GX" + "999999999" + "\n");
+                    tcpClient.Send("GY" + "999999999" + "\n");
+                    tcpClient.Send("GZ" + "999999999" + "\n");
+                }catch (Exception e){
+                    Console.WriteLine(e.ToString());
+                }
             }
 
-            // sending accelerometer over TCP
-            tcpClient.Send("X" + ws.AccelState.Values.X.ToString());
-            tcpClient.Send("Y" + ws.AccelState.Values.Y.ToString());
-            tcpClient.Send("Z" + ws.AccelState.Values.Z.ToString());
+
 		}
 
 		private void wm_WiimoteChanged(object sender, WiimoteChangedEventArgs args)

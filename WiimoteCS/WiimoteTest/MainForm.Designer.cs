@@ -103,28 +103,25 @@ namespace WiimoteTest
             "Down",
             "Left",
             "Right"});
-            this.clbButtons.Location = new System.Drawing.Point(11, 20);
-            this.clbButtons.Margin = new System.Windows.Forms.Padding(4);
+            this.clbButtons.Location = new System.Drawing.Point(8, 16);
             this.clbButtons.Name = "clbButtons";
-            this.clbButtons.Size = new System.Drawing.Size(73, 225);
+            this.clbButtons.Size = new System.Drawing.Size(56, 184);
             this.clbButtons.TabIndex = 1;
             // 
             // lblAccel
             // 
-            this.lblAccel.Location = new System.Drawing.Point(11, 25);
-            this.lblAccel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblAccel.Location = new System.Drawing.Point(8, 20);
             this.lblAccel.Name = "lblAccel";
-            this.lblAccel.Size = new System.Drawing.Size(117, 59);
+            this.lblAccel.Size = new System.Drawing.Size(88, 48);
             this.lblAccel.TabIndex = 2;
             this.lblAccel.Text = "Accel Values";
             // 
             // chkLED4
             // 
             this.chkLED4.AutoSize = true;
-            this.chkLED4.Location = new System.Drawing.Point(11, 94);
-            this.chkLED4.Margin = new System.Windows.Forms.Padding(4);
+            this.chkLED4.Location = new System.Drawing.Point(8, 76);
             this.chkLED4.Name = "chkLED4";
-            this.chkLED4.Size = new System.Drawing.Size(65, 21);
+            this.chkLED4.Size = new System.Drawing.Size(40, 14);
             this.chkLED4.TabIndex = 3;
             this.chkLED4.Text = "LED4";
             this.chkLED4.UseVisualStyleBackColor = true;
@@ -133,10 +130,9 @@ namespace WiimoteTest
             // chkLED3
             // 
             this.chkLED3.AutoSize = true;
-            this.chkLED3.Location = new System.Drawing.Point(11, 69);
-            this.chkLED3.Margin = new System.Windows.Forms.Padding(4);
+            this.chkLED3.Location = new System.Drawing.Point(8, 56);
             this.chkLED3.Name = "chkLED3";
-            this.chkLED3.Size = new System.Drawing.Size(65, 21);
+            this.chkLED3.Size = new System.Drawing.Size(40, 14);
             this.chkLED3.TabIndex = 3;
             this.chkLED3.Text = "LED3";
             this.chkLED3.UseVisualStyleBackColor = true;
@@ -145,10 +141,9 @@ namespace WiimoteTest
             // chkLED2
             // 
             this.chkLED2.AutoSize = true;
-            this.chkLED2.Location = new System.Drawing.Point(11, 44);
-            this.chkLED2.Margin = new System.Windows.Forms.Padding(4);
+            this.chkLED2.Location = new System.Drawing.Point(8, 36);
             this.chkLED2.Name = "chkLED2";
-            this.chkLED2.Size = new System.Drawing.Size(65, 21);
+            this.chkLED2.Size = new System.Drawing.Size(40, 14);
             this.chkLED2.TabIndex = 3;
             this.chkLED2.Text = "LED2";
             this.chkLED2.UseVisualStyleBackColor = true;
@@ -157,10 +152,9 @@ namespace WiimoteTest
             // chkLED1
             // 
             this.chkLED1.AutoSize = true;
-            this.chkLED1.Location = new System.Drawing.Point(11, 20);
-            this.chkLED1.Margin = new System.Windows.Forms.Padding(4);
+            this.chkLED1.Location = new System.Drawing.Point(8, 16);
             this.chkLED1.Name = "chkLED1";
-            this.chkLED1.Size = new System.Drawing.Size(65, 21);
+            this.chkLED1.Size = new System.Drawing.Size(40, 14);
             this.chkLED1.TabIndex = 3;
             this.chkLED1.Text = "LED1";
             this.chkLED1.UseVisualStyleBackColor = true;
@@ -169,10 +163,9 @@ namespace WiimoteTest
             // chkRumble
             // 
             this.chkRumble.AutoSize = true;
-            this.chkRumble.Location = new System.Drawing.Point(11, 118);
-            this.chkRumble.Margin = new System.Windows.Forms.Padding(4);
+            this.chkRumble.Location = new System.Drawing.Point(8, 96);
             this.chkRumble.Name = "chkRumble";
-            this.chkRumble.Size = new System.Drawing.Size(78, 21);
+            this.chkRumble.Size = new System.Drawing.Size(46, 14);
             this.chkRumble.TabIndex = 4;
             this.chkRumble.Text = "Rumble";
             this.chkRumble.UseVisualStyleBackColor = true;
@@ -180,41 +173,37 @@ namespace WiimoteTest
             // 
             // pbBattery
             // 
-            this.pbBattery.Location = new System.Drawing.Point(11, 25);
-            this.pbBattery.Margin = new System.Windows.Forms.Padding(4);
+            this.pbBattery.Location = new System.Drawing.Point(8, 20);
             this.pbBattery.Maximum = 200;
             this.pbBattery.Name = "pbBattery";
-            this.pbBattery.Size = new System.Drawing.Size(133, 28);
+            this.pbBattery.Size = new System.Drawing.Size(100, 23);
             this.pbBattery.Step = 1;
             this.pbBattery.TabIndex = 6;
             // 
             // lblIR1
             // 
             this.lblIR1.AutoSize = true;
-            this.lblIR1.Location = new System.Drawing.Point(11, 20);
-            this.lblIR1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblIR1.Location = new System.Drawing.Point(8, 16);
             this.lblIR1.Name = "lblIR1";
-            this.lblIR1.Size = new System.Drawing.Size(29, 17);
+            this.lblIR1.Size = new System.Drawing.Size(24, 13);
             this.lblIR1.TabIndex = 7;
             this.lblIR1.Text = "IR1";
             // 
             // lblIR2
             // 
             this.lblIR2.AutoSize = true;
-            this.lblIR2.Location = new System.Drawing.Point(11, 39);
-            this.lblIR2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblIR2.Location = new System.Drawing.Point(8, 32);
             this.lblIR2.Name = "lblIR2";
-            this.lblIR2.Size = new System.Drawing.Size(29, 17);
+            this.lblIR2.Size = new System.Drawing.Size(24, 13);
             this.lblIR2.TabIndex = 7;
             this.lblIR2.Text = "IR2";
             // 
             // chkFound1
             // 
             this.chkFound1.AutoSize = true;
-            this.chkFound1.Location = new System.Drawing.Point(11, 182);
-            this.chkFound1.Margin = new System.Windows.Forms.Padding(4);
+            this.chkFound1.Location = new System.Drawing.Point(8, 148);
             this.chkFound1.Name = "chkFound1";
-            this.chkFound1.Size = new System.Drawing.Size(55, 21);
+            this.chkFound1.Size = new System.Drawing.Size(34, 14);
             this.chkFound1.TabIndex = 8;
             this.chkFound1.Text = "IR 1";
             this.chkFound1.UseVisualStyleBackColor = true;
@@ -222,10 +211,9 @@ namespace WiimoteTest
             // chkFound2
             // 
             this.chkFound2.AutoSize = true;
-            this.chkFound2.Location = new System.Drawing.Point(11, 202);
-            this.chkFound2.Margin = new System.Windows.Forms.Padding(4);
+            this.chkFound2.Location = new System.Drawing.Point(8, 164);
             this.chkFound2.Name = "chkFound2";
-            this.chkFound2.Size = new System.Drawing.Size(55, 21);
+            this.chkFound2.Size = new System.Drawing.Size(34, 14);
             this.chkFound2.TabIndex = 8;
             this.chkFound2.Text = "IR 2";
             this.chkFound2.UseVisualStyleBackColor = true;
@@ -233,59 +221,52 @@ namespace WiimoteTest
             // lblBattery
             // 
             this.lblBattery.AutoSize = true;
-            this.lblBattery.Location = new System.Drawing.Point(149, 30);
-            this.lblBattery.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblBattery.Location = new System.Drawing.Point(112, 24);
             this.lblBattery.Name = "lblBattery";
-            this.lblBattery.Size = new System.Drawing.Size(46, 17);
+            this.lblBattery.Size = new System.Drawing.Size(35, 13);
             this.lblBattery.TabIndex = 9;
             this.lblBattery.Text = "label1";
             // 
             // pbIR
             // 
-            this.pbIR.Location = new System.Drawing.Point(11, 310);
-            this.pbIR.Margin = new System.Windows.Forms.Padding(4);
+            this.pbIR.Location = new System.Drawing.Point(8, 252);
             this.pbIR.Name = "pbIR";
-            this.pbIR.Size = new System.Drawing.Size(341, 236);
+            this.pbIR.Size = new System.Drawing.Size(256, 192);
             this.pbIR.TabIndex = 10;
             this.pbIR.TabStop = false;
             // 
             // chkExtension
             // 
             this.chkExtension.AutoSize = true;
-            this.chkExtension.Location = new System.Drawing.Point(11, 281);
-            this.chkExtension.Margin = new System.Windows.Forms.Padding(4);
+            this.chkExtension.Location = new System.Drawing.Point(8, 228);
             this.chkExtension.Name = "chkExtension";
-            this.chkExtension.Size = new System.Drawing.Size(64, 21);
+            this.chkExtension.Size = new System.Drawing.Size(52, 17);
             this.chkExtension.TabIndex = 12;
             this.chkExtension.Text = "None";
             this.chkExtension.UseVisualStyleBackColor = true;
             // 
             // lblChuk
             // 
-            this.lblChuk.Location = new System.Drawing.Point(11, 25);
-            this.lblChuk.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblChuk.Location = new System.Drawing.Point(8, 20);
             this.lblChuk.Name = "lblChuk";
-            this.lblChuk.Size = new System.Drawing.Size(123, 49);
+            this.lblChuk.Size = new System.Drawing.Size(92, 40);
             this.lblChuk.TabIndex = 13;
             this.lblChuk.Text = "Accel Values";
             // 
             // lblChukJoy
             // 
-            this.lblChukJoy.Location = new System.Drawing.Point(11, 79);
-            this.lblChukJoy.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblChukJoy.Location = new System.Drawing.Point(8, 64);
             this.lblChukJoy.Name = "lblChukJoy";
-            this.lblChukJoy.Size = new System.Drawing.Size(123, 34);
+            this.lblChukJoy.Size = new System.Drawing.Size(92, 28);
             this.lblChukJoy.TabIndex = 16;
             this.lblChukJoy.Text = "Joystick Values";
             // 
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.lblAccel);
-            this.groupBox1.Location = new System.Drawing.Point(107, 5);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(4);
+            this.groupBox1.Location = new System.Drawing.Point(80, 4);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(4);
-            this.groupBox1.Size = new System.Drawing.Size(139, 89);
+            this.groupBox1.Size = new System.Drawing.Size(104, 72);
             this.groupBox1.TabIndex = 18;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Wiimote Accel";
@@ -296,11 +277,9 @@ namespace WiimoteTest
             this.groupBox2.Controls.Add(this.chkC);
             this.groupBox2.Controls.Add(this.lblChuk);
             this.groupBox2.Controls.Add(this.lblChukJoy);
-            this.groupBox2.Location = new System.Drawing.Point(107, 98);
-            this.groupBox2.Margin = new System.Windows.Forms.Padding(4);
+            this.groupBox2.Location = new System.Drawing.Point(80, 80);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Padding = new System.Windows.Forms.Padding(4);
-            this.groupBox2.Size = new System.Drawing.Size(139, 167);
+            this.groupBox2.Size = new System.Drawing.Size(104, 136);
             this.groupBox2.TabIndex = 19;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Nunchuk";
@@ -308,10 +287,9 @@ namespace WiimoteTest
             // chkZ
             // 
             this.chkZ.AutoSize = true;
-            this.chkZ.Location = new System.Drawing.Point(11, 138);
-            this.chkZ.Margin = new System.Windows.Forms.Padding(4);
+            this.chkZ.Location = new System.Drawing.Point(8, 112);
             this.chkZ.Name = "chkZ";
-            this.chkZ.Size = new System.Drawing.Size(39, 21);
+            this.chkZ.Size = new System.Drawing.Size(25, 14);
             this.chkZ.TabIndex = 17;
             this.chkZ.Text = "Z";
             this.chkZ.UseVisualStyleBackColor = true;
@@ -319,10 +297,9 @@ namespace WiimoteTest
             // chkC
             // 
             this.chkC.AutoSize = true;
-            this.chkC.Location = new System.Drawing.Point(11, 113);
-            this.chkC.Margin = new System.Windows.Forms.Padding(4);
+            this.chkC.Location = new System.Drawing.Point(8, 92);
             this.chkC.Name = "chkC";
-            this.chkC.Size = new System.Drawing.Size(39, 21);
+            this.chkC.Size = new System.Drawing.Size(25, 14);
             this.chkC.TabIndex = 17;
             this.chkC.Text = "C";
             this.chkC.UseVisualStyleBackColor = true;
@@ -334,11 +311,9 @@ namespace WiimoteTest
             this.groupBox3.Controls.Add(this.chkLED3);
             this.groupBox3.Controls.Add(this.chkLED1);
             this.groupBox3.Controls.Add(this.chkRumble);
-            this.groupBox3.Location = new System.Drawing.Point(357, 310);
-            this.groupBox3.Margin = new System.Windows.Forms.Padding(4);
+            this.groupBox3.Location = new System.Drawing.Point(268, 252);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Padding = new System.Windows.Forms.Padding(4);
-            this.groupBox3.Size = new System.Drawing.Size(96, 148);
+            this.groupBox3.Size = new System.Drawing.Size(72, 120);
             this.groupBox3.TabIndex = 20;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Outputs";
@@ -347,11 +322,9 @@ namespace WiimoteTest
             // 
             this.groupBox4.Controls.Add(this.pbBattery);
             this.groupBox4.Controls.Add(this.lblBattery);
-            this.groupBox4.Location = new System.Drawing.Point(251, 236);
-            this.groupBox4.Margin = new System.Windows.Forms.Padding(4);
+            this.groupBox4.Location = new System.Drawing.Point(188, 192);
             this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Padding = new System.Windows.Forms.Padding(4);
-            this.groupBox4.Size = new System.Drawing.Size(208, 64);
+            this.groupBox4.Size = new System.Drawing.Size(156, 52);
             this.groupBox4.TabIndex = 21;
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Battery";
@@ -370,11 +343,9 @@ namespace WiimoteTest
             this.groupBox5.Controls.Add(this.chkFound4);
             this.groupBox5.Controls.Add(this.chkFound1);
             this.groupBox5.Controls.Add(this.chkFound2);
-            this.groupBox5.Location = new System.Drawing.Point(251, 5);
-            this.groupBox5.Margin = new System.Windows.Forms.Padding(4);
+            this.groupBox5.Location = new System.Drawing.Point(188, 4);
             this.groupBox5.Name = "groupBox5";
-            this.groupBox5.Padding = new System.Windows.Forms.Padding(4);
-            this.groupBox5.Size = new System.Drawing.Size(208, 231);
+            this.groupBox5.Size = new System.Drawing.Size(156, 188);
             this.groupBox5.TabIndex = 22;
             this.groupBox5.TabStop = false;
             this.groupBox5.Text = "IR";
@@ -382,70 +353,63 @@ namespace WiimoteTest
             // lblIR3Raw
             // 
             this.lblIR3Raw.AutoSize = true;
-            this.lblIR3Raw.Location = new System.Drawing.Point(11, 138);
-            this.lblIR3Raw.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblIR3Raw.Location = new System.Drawing.Point(8, 112);
             this.lblIR3Raw.Name = "lblIR3Raw";
-            this.lblIR3Raw.Size = new System.Drawing.Size(56, 17);
+            this.lblIR3Raw.Size = new System.Drawing.Size(46, 13);
             this.lblIR3Raw.TabIndex = 10;
             this.lblIR3Raw.Text = "IR3Raw";
             // 
             // lblIR1Raw
             // 
             this.lblIR1Raw.AutoSize = true;
-            this.lblIR1Raw.Location = new System.Drawing.Point(11, 98);
-            this.lblIR1Raw.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblIR1Raw.Location = new System.Drawing.Point(8, 80);
             this.lblIR1Raw.Name = "lblIR1Raw";
-            this.lblIR1Raw.Size = new System.Drawing.Size(56, 17);
+            this.lblIR1Raw.Size = new System.Drawing.Size(46, 13);
             this.lblIR1Raw.TabIndex = 10;
             this.lblIR1Raw.Text = "IR1Raw";
             // 
             // lblIR4Raw
             // 
             this.lblIR4Raw.AutoSize = true;
-            this.lblIR4Raw.Location = new System.Drawing.Point(11, 158);
-            this.lblIR4Raw.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblIR4Raw.Location = new System.Drawing.Point(8, 128);
             this.lblIR4Raw.Name = "lblIR4Raw";
-            this.lblIR4Raw.Size = new System.Drawing.Size(56, 17);
+            this.lblIR4Raw.Size = new System.Drawing.Size(46, 13);
             this.lblIR4Raw.TabIndex = 9;
             this.lblIR4Raw.Text = "IR4Raw";
             // 
             // lblIR2Raw
             // 
             this.lblIR2Raw.AutoSize = true;
-            this.lblIR2Raw.Location = new System.Drawing.Point(11, 118);
-            this.lblIR2Raw.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblIR2Raw.Location = new System.Drawing.Point(8, 96);
             this.lblIR2Raw.Name = "lblIR2Raw";
-            this.lblIR2Raw.Size = new System.Drawing.Size(56, 17);
+            this.lblIR2Raw.Size = new System.Drawing.Size(46, 13);
             this.lblIR2Raw.TabIndex = 9;
             this.lblIR2Raw.Text = "IR2Raw";
             // 
             // lblIR3
             // 
             this.lblIR3.AutoSize = true;
-            this.lblIR3.Location = new System.Drawing.Point(11, 59);
-            this.lblIR3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblIR3.Location = new System.Drawing.Point(8, 48);
             this.lblIR3.Name = "lblIR3";
-            this.lblIR3.Size = new System.Drawing.Size(29, 17);
+            this.lblIR3.Size = new System.Drawing.Size(24, 13);
             this.lblIR3.TabIndex = 7;
             this.lblIR3.Text = "IR3";
             // 
             // lblIR4
             // 
             this.lblIR4.AutoSize = true;
-            this.lblIR4.Location = new System.Drawing.Point(11, 79);
-            this.lblIR4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblIR4.Location = new System.Drawing.Point(8, 64);
             this.lblIR4.Name = "lblIR4";
-            this.lblIR4.Size = new System.Drawing.Size(29, 17);
+            this.lblIR4.Size = new System.Drawing.Size(24, 13);
             this.lblIR4.TabIndex = 7;
             this.lblIR4.Text = "IR4";
             // 
             // chkFound3
             // 
             this.chkFound3.AutoSize = true;
-            this.chkFound3.Location = new System.Drawing.Point(80, 182);
-            this.chkFound3.Margin = new System.Windows.Forms.Padding(4);
+            this.chkFound3.Location = new System.Drawing.Point(60, 148);
             this.chkFound3.Name = "chkFound3";
-            this.chkFound3.Size = new System.Drawing.Size(55, 21);
+            this.chkFound3.Size = new System.Drawing.Size(34, 14);
             this.chkFound3.TabIndex = 8;
             this.chkFound3.Text = "IR 3";
             this.chkFound3.UseVisualStyleBackColor = true;
@@ -453,10 +417,9 @@ namespace WiimoteTest
             // chkFound4
             // 
             this.chkFound4.AutoSize = true;
-            this.chkFound4.Location = new System.Drawing.Point(80, 202);
-            this.chkFound4.Margin = new System.Windows.Forms.Padding(4);
+            this.chkFound4.Location = new System.Drawing.Point(60, 164);
             this.chkFound4.Name = "chkFound4";
-            this.chkFound4.Size = new System.Drawing.Size(55, 21);
+            this.chkFound4.Size = new System.Drawing.Size(34, 14);
             this.chkFound4.TabIndex = 8;
             this.chkFound4.Text = "IR 4";
             this.chkFound4.UseVisualStyleBackColor = true;
@@ -480,10 +443,9 @@ namespace WiimoteTest
             "ZR",
             "LTrigger",
             "RTrigger"});
-            this.clbCCButtons.Location = new System.Drawing.Point(5, 20);
-            this.clbCCButtons.Margin = new System.Windows.Forms.Padding(4);
+            this.clbCCButtons.Location = new System.Drawing.Point(4, 16);
             this.clbCCButtons.Name = "clbCCButtons";
-            this.clbCCButtons.Size = new System.Drawing.Size(89, 293);
+            this.clbCCButtons.Size = new System.Drawing.Size(68, 229);
             this.clbCCButtons.TabIndex = 23;
             // 
             // groupBox6
@@ -493,11 +455,9 @@ namespace WiimoteTest
             this.groupBox6.Controls.Add(this.lblCCJoy2);
             this.groupBox6.Controls.Add(this.lblCCJoy1);
             this.groupBox6.Controls.Add(this.clbCCButtons);
-            this.groupBox6.Location = new System.Drawing.Point(464, 207);
-            this.groupBox6.Margin = new System.Windows.Forms.Padding(4);
+            this.groupBox6.Location = new System.Drawing.Point(348, 168);
             this.groupBox6.Name = "groupBox6";
-            this.groupBox6.Padding = new System.Windows.Forms.Padding(4);
-            this.groupBox6.Size = new System.Drawing.Size(251, 330);
+            this.groupBox6.Size = new System.Drawing.Size(188, 268);
             this.groupBox6.TabIndex = 24;
             this.groupBox6.TabStop = false;
             this.groupBox6.Text = "Classic Controller";
@@ -505,38 +465,34 @@ namespace WiimoteTest
             // lblTriggerR
             // 
             this.lblTriggerR.AutoSize = true;
-            this.lblTriggerR.Location = new System.Drawing.Point(101, 128);
-            this.lblTriggerR.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblTriggerR.Location = new System.Drawing.Point(76, 104);
             this.lblTriggerR.Name = "lblTriggerR";
-            this.lblTriggerR.Size = new System.Drawing.Size(68, 17);
+            this.lblTriggerR.Size = new System.Drawing.Size(51, 13);
             this.lblTriggerR.TabIndex = 25;
             this.lblTriggerR.Text = "Trigger R";
             // 
             // lblTriggerL
             // 
             this.lblTriggerL.AutoSize = true;
-            this.lblTriggerL.Location = new System.Drawing.Point(101, 108);
-            this.lblTriggerL.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblTriggerL.Location = new System.Drawing.Point(76, 88);
             this.lblTriggerL.Name = "lblTriggerL";
-            this.lblTriggerL.Size = new System.Drawing.Size(66, 17);
+            this.lblTriggerL.Size = new System.Drawing.Size(49, 13);
             this.lblTriggerL.TabIndex = 24;
             this.lblTriggerL.Text = "Trigger L";
             // 
             // lblCCJoy2
             // 
-            this.lblCCJoy2.Location = new System.Drawing.Point(101, 64);
-            this.lblCCJoy2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblCCJoy2.Location = new System.Drawing.Point(76, 52);
             this.lblCCJoy2.Name = "lblCCJoy2";
-            this.lblCCJoy2.Size = new System.Drawing.Size(123, 39);
+            this.lblCCJoy2.Size = new System.Drawing.Size(92, 32);
             this.lblCCJoy2.TabIndex = 24;
             this.lblCCJoy2.Text = "Right Joystick";
             // 
             // lblCCJoy1
             // 
-            this.lblCCJoy1.Location = new System.Drawing.Point(101, 20);
-            this.lblCCJoy1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblCCJoy1.Location = new System.Drawing.Point(76, 16);
             this.lblCCJoy1.Name = "lblCCJoy1";
-            this.lblCCJoy1.Size = new System.Drawing.Size(123, 39);
+            this.lblCCJoy1.Size = new System.Drawing.Size(92, 32);
             this.lblCCJoy1.TabIndex = 24;
             this.lblCCJoy1.Text = "Left Joystick";
             // 
@@ -545,11 +501,9 @@ namespace WiimoteTest
             this.groupBox7.Controls.Add(this.lblGuitarWhammy);
             this.groupBox7.Controls.Add(this.lblGuitarJoy);
             this.groupBox7.Controls.Add(this.clbGuitarButtons);
-            this.groupBox7.Location = new System.Drawing.Point(464, 5);
-            this.groupBox7.Margin = new System.Windows.Forms.Padding(4);
+            this.groupBox7.Location = new System.Drawing.Point(348, 4);
             this.groupBox7.Name = "groupBox7";
-            this.groupBox7.Padding = new System.Windows.Forms.Padding(4);
-            this.groupBox7.Size = new System.Drawing.Size(251, 197);
+            this.groupBox7.Size = new System.Drawing.Size(188, 160);
             this.groupBox7.TabIndex = 26;
             this.groupBox7.TabStop = false;
             this.groupBox7.Text = "Guitar";
@@ -557,19 +511,17 @@ namespace WiimoteTest
             // lblGuitarWhammy
             // 
             this.lblGuitarWhammy.AutoSize = true;
-            this.lblGuitarWhammy.Location = new System.Drawing.Point(123, 64);
-            this.lblGuitarWhammy.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblGuitarWhammy.Location = new System.Drawing.Point(92, 52);
             this.lblGuitarWhammy.Name = "lblGuitarWhammy";
-            this.lblGuitarWhammy.Size = new System.Drawing.Size(66, 17);
+            this.lblGuitarWhammy.Size = new System.Drawing.Size(51, 13);
             this.lblGuitarWhammy.TabIndex = 24;
             this.lblGuitarWhammy.Text = "Whammy";
             // 
             // lblGuitarJoy
             // 
-            this.lblGuitarJoy.Location = new System.Drawing.Point(123, 20);
-            this.lblGuitarJoy.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblGuitarJoy.Location = new System.Drawing.Point(92, 16);
             this.lblGuitarJoy.Name = "lblGuitarJoy";
-            this.lblGuitarJoy.Size = new System.Drawing.Size(123, 39);
+            this.lblGuitarJoy.Size = new System.Drawing.Size(92, 32);
             this.lblGuitarJoy.TabIndex = 24;
             this.lblGuitarJoy.Text = "Joystick Values";
             // 
@@ -586,20 +538,17 @@ namespace WiimoteTest
             "+",
             "StrumUp",
             "StrumDown"});
-            this.clbGuitarButtons.Location = new System.Drawing.Point(5, 20);
-            this.clbGuitarButtons.Margin = new System.Windows.Forms.Padding(4);
+            this.clbGuitarButtons.Location = new System.Drawing.Point(4, 16);
             this.clbGuitarButtons.Name = "clbGuitarButtons";
-            this.clbGuitarButtons.Size = new System.Drawing.Size(105, 157);
+            this.clbGuitarButtons.Size = new System.Drawing.Size(80, 124);
             this.clbGuitarButtons.TabIndex = 23;
             // 
             // groupBox8
             // 
             this.groupBox8.Controls.Add(this.clbButtons);
-            this.groupBox8.Location = new System.Drawing.Point(5, 5);
-            this.groupBox8.Margin = new System.Windows.Forms.Padding(4);
+            this.groupBox8.Location = new System.Drawing.Point(4, 4);
             this.groupBox8.Name = "groupBox8";
-            this.groupBox8.Padding = new System.Windows.Forms.Padding(4);
-            this.groupBox8.Size = new System.Drawing.Size(96, 271);
+            this.groupBox8.Size = new System.Drawing.Size(72, 220);
             this.groupBox8.TabIndex = 27;
             this.groupBox8.TabStop = false;
             this.groupBox8.Text = "Wiimote";
@@ -607,9 +556,11 @@ namespace WiimoteTest
             // groupBox9
             // 
             this.groupBox9.Controls.Add(this.lv_xyz);
-            this.groupBox9.Location = new System.Drawing.Point(722, 5);
+            this.groupBox9.Location = new System.Drawing.Point(542, 4);
+            this.groupBox9.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.groupBox9.Name = "groupBox9";
-            this.groupBox9.Size = new System.Drawing.Size(304, 541);
+            this.groupBox9.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox9.Size = new System.Drawing.Size(228, 440);
             this.groupBox9.TabIndex = 29;
             this.groupBox9.TabStop = false;
             this.groupBox9.Text = "X, Y, Z accel (press A to append)";
@@ -621,9 +572,10 @@ namespace WiimoteTest
             this.columnHeader2,
             this.columnHeader3});
             this.lv_xyz.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lv_xyz.Location = new System.Drawing.Point(3, 18);
+            this.lv_xyz.Location = new System.Drawing.Point(2, 15);
+            this.lv_xyz.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.lv_xyz.Name = "lv_xyz";
-            this.lv_xyz.Size = new System.Drawing.Size(298, 520);
+            this.lv_xyz.Size = new System.Drawing.Size(224, 423);
             this.lv_xyz.TabIndex = 31;
             this.lv_xyz.UseCompatibleStateImageBehavior = false;
             this.lv_xyz.View = System.Windows.Forms.View.Details;
@@ -645,9 +597,9 @@ namespace WiimoteTest
             // 
             // MainForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1038, 558);
+            this.ClientSize = new System.Drawing.Size(778, 453);
             this.Controls.Add(this.groupBox9);
             this.Controls.Add(this.groupBox8);
             this.Controls.Add(this.groupBox7);
@@ -660,7 +612,6 @@ namespace WiimoteTest
             this.Controls.Add(this.chkExtension);
             this.Controls.Add(this.groupBox2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximizeBox = false;
             this.Name = "MainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

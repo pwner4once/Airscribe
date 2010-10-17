@@ -104,7 +104,7 @@ public class tcpClient
     [STAThread]
     public static void Send(System.String lineToBeSent)
     {
-        //socket.Send(encoding.GetBytes(lineToBeSent));
+        socket.Send(encoding.GetBytes(lineToBeSent));
     }
     [STAThread]
     public static void Receive(Socket client) 

@@ -79,9 +79,6 @@
     <Reference Include="System.Design">
       <Name>System.Design</Name>
     </Reference>
-    <Reference Include="System.Drawing">
-      <Name>System.Drawing</Name>
-    </Reference>
     <Reference Include="System.Management">
       <Name>System.Management</Name>
     </Reference>
@@ -99,9 +96,12 @@
     <Compile Include="tcpClient.cs">
       <SubType>Code</SubType>
     </Compile>
-    <None Include="_ConversionReport.htm">
-      <SubType>Preview</SubType>
-    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\WiimoteCS\WiimoteData\WiimoteData.csproj">
+      <Project>{BA451EAD-E47B-46C6-9B04-B39CB916239F}</Project>
+      <Name>WiimoteData</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
