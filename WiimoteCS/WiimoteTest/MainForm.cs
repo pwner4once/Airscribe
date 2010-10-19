@@ -167,8 +167,10 @@ namespace WiimoteTest
 			lblBattery.Text = f.ToString("F");
 
             // add stuff listview for XYZ data
-            if (ws.ButtonState.A)
+            if (ws.ButtonState.One)
             {
+                tcpClient.Send("CLEAR      \n");
+            }else if (ws.ButtonState.A) {
                 lv_xyz.Items.Insert(0, new ListViewItem(new string[] { ws.AccelState.Values.X.ToString(), ws.AccelState.Values.Y.ToString(), ws.AccelState.Values.Z.ToString() }));
                 // sending accelerometer over TCP
                 int msgLen = 9;
