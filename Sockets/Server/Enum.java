@@ -1,4 +1,4 @@
-public class WiimoteData {
+public class Enum {
     public boolean dataReady = false;
     /* acceleration data */
     public float accel_x = 0;
@@ -10,8 +10,8 @@ public class WiimoteData {
     public int gyro_y = 0;
     public int gyro_z = 0;
     
-    public WiimoteData(){ }
-    public WiimoteData (float ax, float ay, float az, int gx, int gy, int gz){
+    public Enum(){ }
+    public Enum (float ax, float ay, float az, int gx, int gy, int gz){
       this.accel_x = ax;
       this.accel_y = ay;
       this.accel_z = az;
