@@ -4,9 +4,11 @@
 
 import java.net.*;
 import java.io.*;
+
 public class Server {
 
   public static void main(String args[]) {
+    DBConnection.startConnection();
 
     int port;
     ServerSocket server_socket;
@@ -32,9 +34,11 @@ public class Server {
         System.out.println(socket.getInetAddress());
         System.out.println(":");
         System.out.println(socket.getPort());
-        
-        input = new BufferedReader(new InputStreamReader(socket.getInputStream()));
-        output = new BufferedWriter(new OutputStreamWriter(socket.getOutputStream()));
+
+        input = new BufferedReader(new InputStreamReader(socket
+            .getInputStream()));
+        output = new BufferedWriter(new OutputStreamWriter(socket
+            .getOutputStream()));
 
         // print received data
         Enum wd = new Enum();
@@ -48,32 +52,40 @@ public class Server {
             String str = new String(buf);
             str = str.substring(0, str.indexOf("\n"));
             String type = str.substring(0, 2);
-           
+
             if (type.equals("AX")) {
-              wd.accel_x = Float.parseFloat(str.substring(2));
+              wd.accel_x1 = Float.parseFloat(str.substring(2));
             } else if (type.equals("AY")) {
-              wd.accel_y = Float.parseFloat(str.substring(2));
+              wd.accel_y1 = Float.parseFloat(str.substring(2));
             } else if (type.equals("AZ")) {
-              wd.accel_z = Float.parseFloat(str.substring(2));
+              wd.accel_z1 = Float.parseFloat(str.substring(2));
             } else if (type.equals("GX")) {
-              wd.gyro_x = Integer.parseInt(str.substring(2));
+              wd.accel_x2 = Integer.parseInt(str.substring(2));
             } else if (type.equals("GY")) {
-              wd.gyro_y = Integer.parseInt(str.substring(2));
+              wd.accel_y2 = Integer.parseInt(str.substring(2));
             } else if (type.equals("GZ")) {
-              wd.gyro_z = Integer.parseInt(str.substring(2));
+              wd.accel_z2 = Integer.parseInt(str.substring(2));
               System.out.println(wd);
+              DBConnection.newRow(wd.accel_x1, wd.accel_y1, wd.accel_z1,
+                wd.accel_x2, wd.accel_y2, wd.accel_z2);
+              
+            } else if (type.equals("TERM")){
+              break;
             }
 
             output.flush();
           }
 
-        } catch (IOException e) { e.printStackTrace();}
-        
+        } catch (IOException e) {
+          e.printStackTrace();
+        }
+
         input.close();
         output.close();
 
         // connection closed by client
         try {
+          DBConnection.endConnection();
           socket.close();
           System.out.println("Connection closed by client");
         } catch (IOException e) {
